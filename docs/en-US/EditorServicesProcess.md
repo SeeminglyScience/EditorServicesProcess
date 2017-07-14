@@ -21,3 +21,7 @@ The Enter-EditorServicesProcess function creates a new runspace within the integ
 ### [Get-EditorServicesProcess](Get-EditorServicesProcess.md)
 
 The Get-EditorServicesProcess function gets processes currently running on the system that are hosted within the PowerShell Editor Services Integrated Terminal.
+
+### [Invoke-EditorServicesProcess](Invoke-EditorServicesProcess.md)
+
+The Invoke-EditorServicesProcess allows you to invoke a script in the default runspace of any process hosted by the PowerShell Editor Services Integrated Console.

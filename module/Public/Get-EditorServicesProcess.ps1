@@ -25,7 +25,9 @@ function Get-EditorServicesProcess {
             }
             Workspace {
                 $runspaces = GetPSESRunspace
-                $runspaces.Runspace.Dispose()
+                if ($runspaces) {
+                    $runspaces.Runspace.Dispose()
+                }
                 $runspaceInfo = $runspaces | Where-Object Workspace -Like $Workspace
 
             }
