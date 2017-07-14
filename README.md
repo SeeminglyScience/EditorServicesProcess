@@ -62,4 +62,4 @@ exit
 
 ## TODO
 
-1. Add function to invoke a scriptblock in the main runspace.
+1. ~~Add function to invoke a scriptblock in the main runspace.~~ Done.
